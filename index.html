@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="contact-section">
+    <a class="contact-section__rel-link" href="https://hu.linkedin.com/in/ihor-otchenash" target="_blank">
+      <img class="contact-section__logo" src="./img/linkedin.svg" alt="LinkedIn"/>
+    </a>
+    <a class="contact-section__rel-link" href="https://github.com/PoisoN1991" target="_blank">
+      <img class="contact-section__logo" src="./img/github.svg" alt="Github"/>
+    </a>
+    <a class="contact-section__rel-link" href="mailto:ihor.otchenash@icloud.com" target="_blank">
+      <img class="contact-section__logo" src="./img/mail.svg" alt="Email"/>
+    </a>
+  </div>
+  <header id="header" class="header-container">
+    <span class="border-arrow-down"></span>
+    <div class="main-header aligned-section">
+      <div class="main-header__main-image-container">
+        <img class="main-header__main-image" src="./img/main-photo.svg" alt="Main Image"/>
+      </div>
+      <h1 class="main-header__title margin-sm"><span class="text-over-line">Hello! I'm Ihor</span></h1>
+      <p class="main-header__about-me margin-sm">... and I'm a Frontend Web Developer who mostly uses React & JavaScript, but definitely not bound to only this tech stack ;) Currently I'm located in Hungary. </p>
+      <div class="main-header__buttons-section margin-md">
+        <a class="buttons-section__button" href="#projects-parts">My Projects</a>
+        <a class="buttons-section__button" href="#about-me-part">About me</a>
+        <a class="buttons-section__button" href="#skills-part">Skills</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="projects-parts" class="section-container completed-projects">
+      <div class="section-container__header">
+        <h2 class="section-container__title">Project Highlights</h2>
+      </div>
+      <div class="aligned-section">
+        <ul class="completed-projects__projects-list">
+          <li class="projects-list__project-container">
+            <a class="projects-list__project-link" href="https://ihor-otchenash.github.io/Memory-Card-Game" target="_blank">
+              <img class="projects-list__project-image" src="./img/cards-game.png" alt="Memory Card Game">
+            </a>
+            <div class="projects-list__info-part">
+              <h3 class="projects-list__project-title">Memory Card Game</h3>
+              <h4 class="projects-list__project-subtitle">HTML, CSS, JavaScript</h4>
+              <p class="projects-list__project-description">One of my first created games with JavaScript - simple memory card game where the objective is to collect the card pairs as fast as you can. Achievements/scores are measured with Stars and are tightly connected with timing, the faster you complete the game the better score you will have. Currently 3 sets are available, they can be manually chosen or randomly provided. Both PC and mobile friendly. Good time killer for adults and nice memory trainer for kids. Enjoy!</p>
+            </div>
+          </li>
+          <li class="projects-list__project-container">
+            <a class="projects-list__project-link" href="https://trakkex-demo.firebaseapp.com/" target="_blank">
+              <img class="projects-list__project-image" src="./img/trakkex.png" alt="Expense Tracker 'Trakkex'">
+            </a>
+            <div class="projects-list__info-part">
+              <h3 class="projects-list__project-title">Expense Tracker "Trakkex"</h3>
+              <h4 class="projects-list__project-subtitle">HTML, SASS, React, Firebase</h4>
+              <p class="projects-list__project-description">React based, light expense tracker version with a conservative design which was specifically tailored for my needs. The main purpose is to check how much money do you have left so that the budget can be planned accordingly. Tracking system has mainly generic expense and income categories which will fit mostly for everyone. Additionally multi-filter was implemented to conveniently check the balance for desired categories and within/or predefined periods. Try it! Track your balance with ease.</p>
+            </div>
+          </li>
+          <li class="projects-list__project-container">
+            <a class="projects-list__project-link" href="https://pomodoro-learn.web.app/" target="_blank">
+              <img class="projects-list__project-image" src="./img/pomodoro.png" alt="Pomodoro">
+            </a>
+            <div class="projects-list__info-part">
+              <h3 class="projects-list__project-title">Pomodoro Time Tracker</h3>
+              <h4 class="projects-list__project-subtitle">HTML, CSS, JavaScript, Firebase</h4>
+              <p class="projects-list__project-description">This pure JavaScript app was based on the traditional Pomodoro Technique to break down work/learning process to intervals of 25 minutes, separated by breaks. Helps to track your time and progress for anything you'd like. For one completed interval of 25 minutes user gets a pomodoro, the progress is being added to the total time spent. Basically, user is being notified when the time is up through browser notifications. Breaks are up to a user. Good to use for those who cares about productivity.</p>
+            </div>
+          </li>
+          <li class="projects-list__project-container">
+            <a class="projects-list__project-link" href="https://ihor-otchenash.github.io/Arcade-Game" target="_blank">
+              <img class="projects-list__project-image" src="./img/arcade-game.png" alt="Arcade Game">
+            </a>
+            <div class="projects-list__info-part">
+              <h3 class="projects-list__project-title">Arcade Game</h3>
+              <h4 class="projects-list__project-subtitle">HTML5 Canvas, JavaScript</h4>
+              <p class="projects-list__project-description">Move four directions, avoid enemies and collect crystals. Clone of classic arcade game Frogger with just HTML5 Canvas engine & JavaScript. The purpose of the game is to get as many points as possible, points are given for collecting crystals. The game can be prolonged by additional lives which appear on the map as a heart icon, however maximum of 5 lives are available at a time. But hurry up, they can disappear quickly!</p>
+            </div>
+          </li>
+          <li class="projects-list__project-container">
+            <a class="projects-list__project-link" href="https://ihor-otchenash.github.io/PixelArt-Maker" target="_blank">
+              <img class="projects-list__project-image" src="./img/pixelart.png" alt="Pixel Art Maker">
+            </a>
+            <div class="projects-list__info-part">
+              <h3 class="projects-list__project-title">Pixel Art Maker</h3>
+              <h4 class="projects-list__project-subtitle">HTML, CSS, JavaScript</h4>
+              <p class="projects-list__project-description">Discover new digital Pixasso inside you! Draw what you like in digital pixel art format, choose your favourite palette and express yourself. Right click will help you to pick the color on the board so don't worry about experimenting with colors, you can always pick the one you like the most!</p>
+            </div>
+          </li>
+        </ul>
+      </div>      
+    </section>
+    <section id="about-me-part" class="section-container about-me">
+      <div class="section-container__header">
+        <h2 class="section-container__title">About me</h2>
+      </div>
+      <div class="aligned-section about-me__description">
+        <div class="about-me__text-container">
+          <p class="about-me__text">I was always curious about things, the days back when the internet was not that widespread and my curiosity couldn't leave me alone I had to do one simple thing - learn by doing on my own. This skill helps me a lot even nowadays. I'm focused on achievements and milestones when I have a task - it will be done no matter what. I've been doing Web Development for around 2 years already, besides my main job where I hold a position of automation developer and working with big data. There is nothing more exciting when I see the results of my work, especially in web, when I use what I have created on my own! These are amazing feelings! I have completed enough different projects and got new knowledge to be confident that I'm ready for change from where I'm now. I decided to go for a Frontend Web because I'm the person who likes to see and "touch" the results, furthermore the fact that Web industry is now growing very fast and is very perspective makes me even more interested.</p>
+        </div>
+      </div>
+    </section>
+    <section id="skills-part" class="section-container skills">
+      <div class="section-container__header">
+        <h2 class="section-container__title">Skills</h2>
+      </div>
+      <div class="aligned-section skills__container">
+        <img class="skills__item" src="./img/react.svg" alt="React"/>
+        <img class="skills__item" src="./img/javascript.svg" alt="JavaScript"/>
+        <img class="skills__item" src="./img/html.svg" alt="HTML"/>
+        <img class="skills__item" src="./img/css.svg" alt="CSS"/>
+        <img class="skills__item" src="./img/sass.svg" alt="Sass"/>
+        <img class="skills__item" src="./img/python.svg" alt="Python"/>
+        <img class="skills__item" src="./img/github.svg" alt="github"/>
+        <img class="skills__item" src="./img/pandas.svg" alt="pandas"/>
+        <img class="skills__item" src="./img/bootstrap.svg" alt="Bootstrap"/>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__advertisement">
+      <p class="footer__advertisement-text">Want to contact me? Don't be shy - I'm open for conversation :)</p>
+      <a class="footer__contact-me buttons-section__button" href="mailto:ihor.otchenash@icloud.com">Drop me a message</a>
+    </div>
+    <div class="contact-section contact-section-in-footer">
+      <a class="contact-section__rel-link" href="https://hu.linkedin.com/in/ihor-otchenash" target="_blank">
+        <img class="contact-section__logo" src="./img/linkedin.svg" alt="LinkedIn"/>
+      </a>
+      <a class="contact-section__rel-link" href="https://github.com/PoisoN1991" target="_blank">
+        <img class="contact-section__logo" src="./img/github.svg" alt="Github"/>
+      </a>
+      <a class="contact-section__rel-link" href="mailto:ihor.otchenash@icloud.com">
+        <img class="contact-section__logo" src="./img/mail.svg" alt="Email"/>
+      </a>
+    </div>
+    <p class="footer__credit">Site by <a class="footer__credit-link" href="https://ihor-otchenash.github.io/">Ihor Otchenash</a></p>
+    <a class="buttons-section__button go-top" href="#header"> Go top</a>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+</html>
