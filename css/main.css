@@ -200,6 +200,7 @@ body {
   max-width: 300px;
   margin: 0 3rem 0 0;
   filter: grayscale(100%);
+  transition: 0.3s transform, 0.3s filter;
 }
 
 .projects-list__project-link:hover {
